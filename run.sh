@@ -4,7 +4,7 @@ prompts=(
     # "A bedroom with a queen-size bed, two nightstands, a table lamp, a dresser, a laundry hamper, wood floor."
     # "A bathroom with a bathtub, a vanity, a soap dispenser, a toilet, a freestanding mirror, a storage cabinet, a bath mat, and a waste bin."
     # "A playroom with a toy storage box, four rocking horse, a small wooden table, and a low stool."
-    "A modern cardio station with an electric treadmill, a stationary exercise bike, a rowing machine, a standing floor fan, and a tall water dispenser."
+    # "A modern cardio station with an electric treadmill, a stationary exercise bike, a rowing machine, a standing floor fan, and a tall water dispenser."
     # "A clean waiting room with a row of three linked metal chairs, a square coffee table, a floor-standing magazine rack, a tall water dispenser, a large potted palm, and a round waste bin."
     # "A laundromat section with two front-loading washing machines, a metal folding table, a laundry cart with wheels, a large plastic laundry basket, and a snack vending machine."
     # "A bookstore corner with a double-sided wooden bookshelf, a rectangular display table, a wooden checkout counter, a digital cash register on the counter, and a small metal step stool."
@@ -17,7 +17,7 @@ prompts=(
     # === Structure/Symmetric Layout ===
     # "A rectangular dining table with six chairs, three on each side."
     # "A stack of four books with a small ceramic vase on top."
-    # "15 coke cans stacking in a pyramid"
+    "15 coke cans stacking in a pyramid"
     # "A grid of 4 identical plants"
     # "A road safety setup with six orange traffic cones arranged in a straight line with equal spacing."
     # "A laboratory sample station with a rectangular metal tray and six transparent glass beakers arranged in a 2x3 grid."

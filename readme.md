@@ -3,6 +3,8 @@
     SceneAssistant: A Visual Feedback Agent for Open-Vocabulary 3D Scene Generation<br>
 </h2>
 
+[Arxiv](https://arxiv.org/abs/2603.12238)
+
 ## Environment Setup
 
 ```bash
@@ -12,7 +14,7 @@ source install_env.sh
 
 ## Run SceneAssistant
 
-Modify `llm.py`, including the "base_url" parameter. By default, we use zhizengzeng, which is a relay platform. You can modify `llm.py` to use a platform you have access to.
+Modify `llm.py`, including the `base_url` parameter. By default, we use gemini-3-flash-preview and  zhizengzeng, which is a relay platform. You can modify `llm.py` to use a platform you have access to. Please also set the `GOOGLE_API_KEY` environment variable, like `export GOOGLE_API_KEY=<your api key>`. We also provide a OpenAI LLM implementation, please refer to `llm.py`.
 
 Edit the prompt list in `run.sh` and keep only the scene prompt you want to generate, then run:
 ```bash
